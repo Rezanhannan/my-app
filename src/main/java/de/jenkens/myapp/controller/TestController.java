@@ -16,6 +16,6 @@ public class TestController {
 
 	@GetMapping
 	public String callTest() {
-		return "Test was Called -jenkins successful - auto trigger";
+		return "Test was Called -jenkins successful - auto trigger github plugin installed on jenkins";
 	}
 }
