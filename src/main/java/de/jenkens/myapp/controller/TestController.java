@@ -16,6 +16,6 @@ public class TestController {
 
 	@GetMapping
 	public String callTest() {
-		return "Test was Called -jenkins successful - auto trigger 2 minute";
+		return "Test was Called -jenkins successful - auto trigger every 1 minute";
 	}
 }
